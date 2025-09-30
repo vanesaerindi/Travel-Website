@@ -77,10 +77,4 @@ travel-website/
 ---
 
 ## 📸 Screenshots
-(Add a few screenshots of homepage and admin panel here to make it look professional.)
 
----
-
-## 📜 Notes
-- Do **not** upload your real `config.php` (with password).
-- Only `config.example.php` should be public.
