@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>User Dashboard</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(120deg, #e0f7fa, #e8f5e9);
+      margin: 0;
+      padding: 40px;
+      color: #333;
+      text-align: center;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    h1 {
+      font-size: 3em;
+      background: linear-gradient(90deg, #28a745, #66bb6a, #28a745);
+      background-size: 200% auto;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: shine 3s linear infinite;
+      margin-bottom: 20px;
+    }
+    p {
+      font-size: 1.3em;
+      margin-bottom: 30px;
+    }
+    a {
+      display: inline-block;
+      padding: 14px 28px;
+      background-color: #28a745;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      font-size: 1.1em;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+      transition: all 0.3s ease-in-out;
+    }
+    a:hover {
+      background-color: #218838;
+      transform: scale(1.05);
+    }
+    @keyframes shine {
+      0% { background-position: 0% center; }
+      100% { background-position: 200% center; }
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome, User!</h1>
+  <p>You can browse tours, destinations, and book your next adventure.</p>
+  <a href="index.html">Go to Main Website</a>
+</body>
+</html>
