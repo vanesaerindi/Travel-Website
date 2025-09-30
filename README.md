@@ -77,4 +77,14 @@ travel-website/
 ---
 
 ## 📸 Screenshots
+### Homepage
+![Homepage](screenshots/screenshot-home.png)
 
+### Login Page
+![Login Page](screenshots/screenshot-login.png)
+
+### Admin Panel
+![Admin Panel](screenshots/screenshot-admin.png)
+
+### Packages Page
+![Packages](screenshots/screenshot-packages.png) 
